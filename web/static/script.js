@@ -17,9 +17,9 @@ document.getElementById('loginForm').addEventListener('submit', async function(e
 
     const result = await response.json();
 
-    document.getElementById('NoMoreLeaks').textContent = result.NoMoreLeaks;
+    document.getElementById('NoMoreLeaks').textContent = result.NoMoreLeaks.found;
      
-    if ( result.NoMoreLeaks ) {
+    if ( result.NoMoreLeaks.found ) {
         document.getElementById('NoMoreLeaks').classList.add("bad")
     } else {
         document.getElementById('NoMoreLeaks').classList.add("good")

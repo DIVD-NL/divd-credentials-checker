@@ -30,7 +30,7 @@ def login():
         return jsonify({'error': 'Username and password are required'}), 400
 
     result = {}
-    result["NoMoreLeaks"] = check_no_more_leaks(username, password)
+    result["NoMoreLeaks"] = { "found": check_no_more_leaks(username, password) }
 
     return jsonify(result), 200
 
