@@ -1,0 +1,10 @@
+emailadres1@domein1.nl:Wacht!woord1
+emailadres2@domein2.nl:Wacht!woord2
+emailadres3@domein3.nl:Wacht!woord3
+emailadres4@domein4.nl:Wacht!woord4
+emailadres5@domein5.nl:Wacht!woord5
+emailadres6@domein6.nl:Wacht!woord6
+emailadres7@domein7.nl:Wacht!woord7
+emailadres8@domein8.nl:Wacht!woord8
+emailadres9@domein9.nl:Wacht!woord9
+emailadres10@domein10.nl:Wacht!woord10

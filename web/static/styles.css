@@ -1,0 +1,22 @@
+/* General styles for the body */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Style for elements indicating good status */
+.good {
+    color: #004d00;  /* Dark green text */
+    background-color: #80ff80;  /* Light green background */
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+/* Style for elements indicating bad status */
+.bad {
+    color: #ff0000;  /* Red text */
+    background-color: #ffe6e6;  /* Light red/pink background */
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+}
